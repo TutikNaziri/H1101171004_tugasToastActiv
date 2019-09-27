@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:backgroundTint="#FFEB3B"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="342dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/hello_tutik"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="50dp" />
+
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="342dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/count_up"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="342dp"
+        android:layout_height="76dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/count_down"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="310dp"
+        android:layout_height="294dp"
+        android:background="#4CAF50"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/_04"
+        android:textSize="250sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.961"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_toast"
+        app:layout_constraintVertical_bias="0.282" />
+</androidx.constraintlayout.widget.ConstraintLayout>
